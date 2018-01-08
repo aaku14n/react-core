@@ -1408,7 +1408,7 @@ var _App = __webpack_require__(32);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _registerServiceWorker = __webpack_require__(36);
+var _registerServiceWorker = __webpack_require__(37);
 
 var _registerServiceWorker2 = _interopRequireDefault(_registerServiceWorker);
 
@@ -18765,7 +18765,7 @@ exports = module.exports = __webpack_require__(14)(true);
 
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n", "", {"version":3,"sources":["C:/Users/Aaku/Desktop/react-core/src/index.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,WAAW;EACX,wBAAwB;CACzB","file":"index.css","sourcesContent":["body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n", "", {"version":3,"sources":["/home/aaku/Desktop/react-core/src/index.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,WAAW;EACX,wBAAwB;CACzB","file":"index.css","sourcesContent":["body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -18888,6 +18888,10 @@ var _logo2 = _interopRequireDefault(_logo);
 
 __webpack_require__(34);
 
+var _Input = __webpack_require__(36);
+
+var _Input2 = _interopRequireDefault(_Input);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -18906,32 +18910,33 @@ var App = function (_Component) {
   }
 
   _createClass(App, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       return _react2.default.createElement(
-        'div',
-        { className: 'App' },
+        "div",
+        { className: "App" },
         _react2.default.createElement(
-          'header',
-          { className: 'App-header' },
-          _react2.default.createElement('img', { src: _logo2.default, className: 'App-logo', alt: 'logo' }),
+          "header",
+          { className: "App-header" },
+          _react2.default.createElement("img", { src: _logo2.default, className: "App-logo", alt: "logo" }),
           _react2.default.createElement(
-            'h1',
-            { className: 'App-title' },
-            'Welcome to React'
+            "h1",
+            { className: "App-title" },
+            "Welcome to React"
           )
         ),
         _react2.default.createElement(
-          'p',
-          { className: 'App-intro' },
-          'To get started, edit ',
+          "p",
+          { className: "App-intro" },
+          "To get started, edit ",
           _react2.default.createElement(
-            'code',
+            "code",
             null,
-            'src/App.js'
+            "src/App.js"
           ),
-          ' and save to reload.'
-        )
+          " and save to reload."
+        ),
+        _react2.default.createElement(_Input2.default, null)
       );
     }
   }]);
@@ -18987,20 +18992,107 @@ exports = module.exports = __webpack_require__(14)(true);
 
 
 // module
-exports.push([module.i, ".App__App___3Ge-C {\n  text-align: center;\n}\n\n.App__App-logo___S1Lue {\n  animation: App__App-logo-spin___2zbnz infinite 20s linear;\n  height: 80px;\n}\n\n.App__App-header___1mzDF {\n  background-color: #222;\n  height: 150px;\n  padding: 20px;\n  color: white;\n}\n\n.App__App-title___tAcLI {\n  font-size: 1.5em;\n}\n\n.App__App-intro___2BdAl {\n  font-size: large;\n}\n\n@keyframes App__App-logo-spin___2zbnz {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n}\n", "", {"version":3,"sources":["C:/Users/Aaku/Desktop/react-core/src/App.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;CACpB;;AAED;EACE,0DAA6C;EAC7C,aAAa;CACd;;AAED;EACE,uBAAuB;EACvB,cAAc;EACd,cAAc;EACd,aAAa;CACd;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,OAAO,wBAAwB,EAAE;EACjC,KAAK,0BAA0B,EAAE;CAClC","file":"App.css","sourcesContent":[".App {\n  text-align: center;\n}\n\n.App-logo {\n  animation: App-logo-spin infinite 20s linear;\n  height: 80px;\n}\n\n.App-header {\n  background-color: #222;\n  height: 150px;\n  padding: 20px;\n  color: white;\n}\n\n.App-title {\n  font-size: 1.5em;\n}\n\n.App-intro {\n  font-size: large;\n}\n\n@keyframes App-logo-spin {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".App__App___1o-Fp {\n  text-align: center;\n}\n\n.App__App-logo___3JCPt {\n  animation: App__App-logo-spin___RvI1J infinite 20s linear;\n  height: 80px;\n}\n\n.App__App-header___3iH8L {\n  background-color: #222;\n  height: 150px;\n  padding: 20px;\n  color: white;\n}\n\n.App__App-title___EIoWq {\n  font-size: 1.5em;\n}\n\n.App__App-intro___1OgPc {\n  font-size: large;\n}\n\n@keyframes App__App-logo-spin___RvI1J {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n}\n", "", {"version":3,"sources":["/home/aaku/Desktop/react-core/src/App.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;CACpB;;AAED;EACE,0DAA6C;EAC7C,aAAa;CACd;;AAED;EACE,uBAAuB;EACvB,cAAc;EACd,cAAc;EACd,aAAa;CACd;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,OAAO,wBAAwB,EAAE;EACjC,KAAK,0BAA0B,EAAE;CAClC","file":"App.css","sourcesContent":[".App {\n  text-align: center;\n}\n\n.App-logo {\n  animation: App-logo-spin infinite 20s linear;\n  height: 80px;\n}\n\n.App-header {\n  background-color: #222;\n  height: 150px;\n  padding: 20px;\n  color: white;\n}\n\n.App-title {\n  font-size: 1.5em;\n}\n\n.App-intro {\n  font-size: large;\n}\n\n@keyframes App-logo-spin {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
-	"App": "App__App___3Ge-C",
-	"App-logo": "App__App-logo___S1Lue",
-	"App-logo-spin": "App__App-logo-spin___2zbnz",
-	"App-header": "App__App-header___1mzDF",
-	"App-title": "App__App-title___tAcLI",
-	"App-intro": "App__App-intro___2BdAl"
+	"App": "App__App___1o-Fp",
+	"App-logo": "App__App-logo___3JCPt",
+	"App-logo-spin": "App__App-logo-spin___RvI1J",
+	"App-header": "App__App-header___3iH8L",
+	"App-title": "App__App-title___EIoWq",
+	"App-intro": "App__App-intro___1OgPc"
 };
 
 /***/ }),
 /* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./css/input.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Input = function (_React$Component) {
+  _inherits(Input, _React$Component);
+
+  function Input(props) {
+    _classCallCheck(this, Input);
+
+    var _this = _possibleConstructorReturn(this, (Input.__proto__ || Object.getPrototypeOf(Input)).call(this, props));
+
+    _this.state = {
+      value: props.value ? props.value : ""
+    };
+    return _this;
+  }
+
+  _createClass(Input, [{
+    key: "onChange",
+    value: function onChange(value) {
+      this.setState({ value: value });
+      if (this.props.onChange) {
+        this.props.onChange(value);
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement("input", {
+        type: this.props.type,
+        className: "Input",
+        placeholder: this.props.placeholder,
+        style: {
+          width: this.props.width + "px",
+          height: this.props.height + "px",
+          backgroundColor: this.props.backgroundColor,
+          color: this.props.color,
+          fontSize: this.props.fontSize + "px"
+        },
+        value: this.props.value ? this.props.value : "",
+        onChange: function onChange(val) {
+          return _this2.onChange(val.target.value);
+        }
+      });
+    }
+  }]);
+
+  return Input;
+}(_react2.default.Component);
+
+exports.default = Input;
+
+Input.defaultProps = {
+  type: "text",
+  width: 200,
+  height: 40,
+  backgroundColor: "#fff",
+  placeholder: "",
+  value: ""
+};
+
+/***/ }),
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
