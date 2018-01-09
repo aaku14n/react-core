@@ -10,7 +10,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve("dist"),
+    path: path.resolve("build"),
     filename: "index.js"
   },
   module: {
@@ -24,31 +24,25 @@ module.exports = {
         }
       },
       {
-        test: /\.jsx$/,
-        loader: "babel-loader",
-        exclude: /node_modules/,
-        query: {
-          presets: ["es2015", "react", "stage-2"]
-        }
-      },
-      {
         test: /\.css/,
         loaders: [
           "style-loader",
           "css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]&sourceMap&-minimize"
         ]
-        // include: [__dirname + "/src", "/node_modules/"]
+        exclude: /node_modules/,
       },
       {
         test: /\.(png|woff|woff2|eot|ttf)$/,
-        loader: "url-loader?limit=100000"
+        loader: "url-loader?limit=100000",
+        exclude: /node_modules/,
       },
       {
         test: /\.(jpg|png|svg)$/,
         loader: "file-loader",
         options: {
           name: "[path][name].[hash].[ext]"
-        }
+        },
+        exclude: /node_modules/,
       }
     ]
   },
