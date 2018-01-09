@@ -27,6 +27,17 @@ module.exports = {
         ],
         include: __dirname + "/src",
         exclude: /node_modules/
+      },
+      {
+        test: /\.(png|woff|woff2|eot|ttf)$/,
+        loader: "url-loader?limit=100000"
+      },
+      {
+        test: /\.(jpg|png|svg)$/,
+        loader: "file-loader",
+        options: {
+          name: "[path][name].[hash].[ext]"
+        }
       }
     ]
   },

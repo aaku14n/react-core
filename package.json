@@ -1,6 +1,6 @@
 {
   "name": "react-core-components",
-  "version": "0.1.9",
+  "version": "0.2.1",
   "main": "build/index.js",
   "private": false,
   "peerDependencies": {
@@ -8,11 +8,13 @@
   },
   "dependencies": {
     "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.8",
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
+    "url-loader": "^0.6.2",
     "webpack": "^3.10.0"
   },
   "scripts": {

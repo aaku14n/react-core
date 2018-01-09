@@ -1,7 +1,6 @@
-import React from "react";
-class Input extends React.Component {
-  render() {
-    return <div>This is so Fancy!</div>;
-  }
-}
-export default Input;
+import Input from "./Input";
+import Button from "./Button";
+import ChatBox from "./ChatBox";
+import Icon from "./Icon";
+
+module.exports = { Input, Button, Icon, ChatBox };
