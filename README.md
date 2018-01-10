@@ -1,6 +1,6 @@
 # React Core Components
 
-*React core components* is the simplest way to import the most used react components in web design like input box for text fields and password fields and number fields etc. With all the validation like isAlphabateOnly! isAlphNumericOnly! isNumberOnly! .And the second most important compoent is Button you can pass diffret styles in button that looks pretty awesome. The chatbox component mainly uses for the showing chat messages (like facebook).
+*React core components* is the simplest way to import the most used react components in web design like input box for text fields and password fields and number fields etc. With all the validation like ``` isAlphabateOnly! isAlphNumericOnly! isNumberOnly! ```.And the second most important compoent is Button you can pass diffret styles in button that looks pretty awesome. The chatbox component mainly uses for the showing chat messages (like facebook).
 
 
 ```
