@@ -32,6 +32,8 @@ there are many components in react-core-components.
 * [Icon](https://github.com/aaku14n/react-core) - Icon
 * [Image](https://github.com/aaku14n/react-core) - Image
 
+## Import Styles 
+   import "react-core-components/styles.css"
 
 ### Input
 

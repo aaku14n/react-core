@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.Grid {
+  width: 100%;
+  height: auto;
+}
+.Grid-buffer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+}
+.Grid-Card-variableHeight {
+  position: absolute;
+}
