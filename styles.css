@@ -60,15 +60,15 @@
 
 @font-face {
   font-family: ragular;
-  src: url(./fonts/Adamina-Regular.ttf);
+  src: url(./src/fonts/Adamina-Regular.ttf);
 }
 @font-face {
   font-family: bolder;
-  src: url(./fonts/AlegreyaSans-Medium.ttf);
+  src: url(./src/fonts/AlegreyaSans-Medium.ttf);
 }
 @font-face {
   font-family: italic;
-  src: url(./fonts/AlegreyaSans-Italic.ttf);
+  src: url(./src/fonts/AlegreyaSans-Italic.ttf);
 }
 .ChatBox {
   position: fixed;
@@ -122,7 +122,7 @@
   border-color: #dcf373 transparent transparent #dcf373;
 }
 .ChatBox-close {
-  background-image: url("./img/close.svg");
+  background-image: url("./src/img/close.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 15px;
@@ -133,7 +133,7 @@
   margin-top: 50px;
 }
 .ChatBox-noMessage {
-  background-image: url("./img/msg.svg");
+  background-image: url("./src/img/msg.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100px;
