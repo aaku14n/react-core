@@ -26,7 +26,7 @@ module.exports = {
           "css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]&sourceMap&-minimize"
         ],
         include: __dirname + "/src",
-        exclude: /node_modules/
+        exclude: /(node_modules|bower_components|build)/
       },
       {
         test: /\.(png|woff|woff2|eot|ttf)$/,
